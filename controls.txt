@@ -1,0 +1,35 @@
+jk/up/down         - navigate result list
+hl/left/right      - back/forward in playlist
+ctrl+hl/left/right - seeking in track
+enter              - play from here in playlist
+space              - pause/resume
+r                  - cycle repeat off/repeat playlist/repeat one
+s                  - toggle shuffle off/on
+ctrl+j/k/up/down   - next/previous in sidebar
+ctrl+enter         - open playlist
++/-                - increase/decrease volume
+m                  - toggle volume mute
+
+(/,?)<term>        - search in current view (vim-like)
+n/N                - next/previous result
+
+:s <term>          - Search for tracks
+:p <term>          - search for Playlists
+:a <term>          - search for Artists
+:b <term>          - search for alBums
+
+l                  - show/hide lyrics (modal overlay)
+
+
+Status bar:
+================================================================
+[rsP] Track - Artist                               [00:01/04:20] - playing
+[RsP] Track - Artist                               [00:01/04:20] - playing (repeat playlist)
+[osP] Track - Artist                               [00:01/04:20] - playing (repeat one)
+[rSP] Track - Artist                               [00:01/04:20] - playing (shuffle)
+[rsp] Track - Artist                               [00:01/04:20] - paused
+[rss]                                                            - stopped
+ |||
+ |||- Play state    (P - playing, p - paused, s - stopped)
+ ||-- Shuffle state (s - off, S - on)
+ |--- Repeat state  (r - off, o - one, R - on)
